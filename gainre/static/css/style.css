@@ -1,0 +1,43 @@
+img {
+  width: 100%; }
+
+.logo {
+  width: 60px; 
+}
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase; }
+
+.social a {
+  margin-right: 0.4rem; }
+
+#showcase {
+  background: linear-gradient(rgba(20,20,20, .9),rgba(20,20,20, .7)), url(../img/showcase.jpg) no-repeat top center fixed/cover;
+  position: relative;
+  min-height: 650px;
+  color: #fff;
+  padding-top: 6rem; 
+}
+
+#showcase .home-search {
+  min-height: 400px;
+  position: relative;
+  border-radius: 5px; 
+}
+
+#showcase .overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+  width: 100%;
+}
+
+#showcase-inner {
+  background: linear-gradient(rgba(20,20,20, .9),rgba(20,20,20, .7)), url(../img/profile.jpg) no-repeat top center fixed/cover;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px; 
+}
